@@ -1,0 +1,608 @@
+{
+  "business": {
+    "name": "Summit Tire Shop",
+    "phone": "555-tir-r91",
+    "category": "tire-shop",
+    "city": "Louisville",
+    "state": "KY"
+  },
+  "design": {
+    "preset": {
+      "id": "tire-shop-mountain-bold",
+      "categoryGroup": "tire-shop",
+      "name": "Mountain Bold",
+      "recipeFile": "tire-shop/mountain-bold.astro",
+      "colors": {
+        "primary": "#111827",
+        "primaryDark": "#0c111b",
+        "primaryLight": "#c4c5c9",
+        "secondary": "#374151",
+        "accent": "#EF4444",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#111827",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "tire-shop/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Louisville's trusted tire experts",
+      "heroSubline": "Honest tire services for Louisville drivers. We know Kentucky roads and weather demand reliable tires.",
+      "aboutTitle": "Serving Louisville since 2012",
+      "aboutText": [
+        "Summit Tire Shop opened its doors in Louisville with one goal: to provide straightforward tire services without the upsells. Founded by two mechanics tired of seeing customers overcharged for simple repairs.",
+        "We believe in showing you exactly what your vehicle needs. Our technicians explain options clearly, whether you're driving through Highlands' historic streets or commuting to St. Matthews.",
+        "As Louisville grows, we're committed to keeping our community rolling safely. We sponsor little league teams and donate tires to local vocational schools."
+      ],
+      "valueProps": [
+        {
+          "title": "Local knowledge",
+          "description": "We understand how Kentucky's seasonal changes affect tire wear and performance."
+        },
+        {
+          "title": "Fair pricing",
+          "description": "No hidden fees - just honest assessments and competitive rates."
+        },
+        {
+          "title": "Quick turnaround",
+          "description": "Most services completed same-day so you're back on the road faster."
+        },
+        {
+          "title": "Quality brands",
+          "description": "We carry trusted names that hold up to Louisville's potholes and weather extremes."
+        }
+      ],
+      "ctaHeadline": "Need tires that handle Louisville roads?",
+      "ctaSubline": "Call 555-TIR-R91 today for honest advice from our team."
+    },
+    "services": [
+      {
+        "slug": "tire-replacement",
+        "name": "Tire Replacement",
+        "shortDescription": "Expert tire selection and installation for Louisville's varied driving conditions.",
+        "description": "Louisville's mix of urban streets, highway commutes, and seasonal weather demands the right tires. Our technicians help you choose between all-season, performance, or specialty tires based on your driving habits.\n\nWe inspect your current tread wear pattern to identify potential alignment issues before installing new tires. All installations include proper torque checks and road testing. For homes near limestone-heavy areas like Old Louisville, we recommend tires with reinforced sidewalls to handle uneven surfaces.",
+        "process": [
+          "Step 1: Comprehensive inspection of current tires and suspension",
+          "Step 2: Discussion of driving needs and budget considerations",
+          "Step 3: Professional mounting and balancing using Hunter equipment",
+          "Step 4: Final inspection and test drive"
+        ],
+        "benefits": [
+          "Extended tread life through proper installation",
+          "Improved handling on Louisville's varied road surfaces",
+          "Better fuel efficiency from properly balanced tires",
+          "Expert recommendations for Kentucky's climate"
+        ],
+        "faq": [
+          {
+            "question": "How often should Louisville drivers replace tires?",
+            "answer": "Most tires last 3-5 years here. Summer heat accelerates wear, while winter potholes can cause sudden damage. We recommend seasonal inspections."
+          },
+          {
+            "question": "What's the best tire type for commuting to Churchill Downs?",
+            "answer": "For mixed city/highway driving, we recommend all-season touring tires with good wet traction for spring storms."
+          }
+        ]
+      },
+      {
+        "slug": "flat-repair",
+        "name": "Flat Tire Repair",
+        "shortDescription": "Reliable flat fixes that get you back on Louisville roads quickly.",
+        "description": "From nails in NuLu to curb damage in St. Matthews, we handle most flat tire repairs in under an hour. Our technicians first determine if the puncture is repairable based on its location and size - we never patch unsafe damage just to make a sale.\n\nLouisville's limestone substrate means many roads develop sharp edges that can pinch tires. We inspect the inner liner for hidden damage even when the puncture seems straightforward. All repairs include rebalancing to prevent vibration issues on I-65 or Watterson Expressway.",
+        "process": [
+          "Step 1: Locate puncture using water test and visual inspection",
+          "Step 2: Remove tire and inspect interior for secondary damage",
+          "Step 3: Apply industry-approved patch/plug combination",
+          "Step 4: Rebalance wheel assembly"
+        ],
+        "benefits": [
+          "Same-day service for most repairs",
+          "Honest assessment of repairability",
+          "Includes free pressure check for other tires",
+          "Warranty on all patch repairs"
+        ],
+        "faq": [
+          {
+            "question": "Can you repair sidewall damage?",
+            "answer": "Never. Sidewall compromises require replacement for safety. We'll explain why and show you the damage."
+          },
+          {
+            "question": "Do you offer mobile flat repair?",
+            "answer": "Yes, for simple flats within 10 miles of our shop. Complex cases may need tow-in service."
+          }
+        ]
+      },
+      {
+        "slug": "wheel-alignment",
+        "name": "Wheel Alignment",
+        "shortDescription": "Precision alignments to combat Louisville's pothole season.",
+        "description": "Kentucky's freeze-thaw cycles create alignment-challenging road conditions each winter. Our Hunter alignment system precisely measures camber, caster, and toe angles to manufacturer specifications.\n\nWe pay special attention to vehicles frequently crossing the Big Four Bridge or navigating downtown's brick streets. The process includes a pre-alignment inspection of suspension components - we'll notify you of any worn parts affecting alignment accuracy. Proper alignment improves tire life by 20-30% on Louisville's roads.",
+        "process": [
+          "Step 1: Test drive to identify handling characteristics",
+          "Step 2: Suspension component inspection",
+          "Step 3: Four-wheel alignment measurement",
+          "Step 4: Adjustment and verification"
+        ],
+        "benefits": [
+          "Reduces uneven tire wear",
+          "Improves fuel efficiency",
+          "Enhances vehicle handling",
+          "Prevents premature suspension wear"
+        ],
+        "faq": [
+          {
+            "question": "How often should Louisville drivers get alignments?",
+            "answer": "Annually, or immediately after hitting a major pothole. Spring is ideal after winter road damage."
+          },
+          {
+            "question": "Can alignment fix my car pulling to one side?",
+            "answer": "Usually yes, but we first check for other causes like brake drag or tire pressure differences."
+          }
+        ]
+      },
+      {
+        "slug": "tire-rotation",
+        "name": "Tire Rotation",
+        "shortDescription": "Regular rotations extend tire life on Louisville's varied road surfaces.",
+        "description": "Front-wheel drive vehicles in Louisville wear front tires faster due to stop-and-go traffic and turning demands. Our rotation service follows manufacturer patterns while inspecting for developing wear issues.\n\nWe document tread depth at each rotation to help predict replacement timing. The service includes checking for uneven wear that might indicate alignment needs - common after driving Highlands' angled streets. Most Louisville drivers should rotate every 5,000-7,000 miles depending on their commute routes.",
+        "process": [
+          "Step 1: Record current tread depths per tire",
+          "Step 2: Remove and reposition tires per rotation pattern",
+          "Step 3: Torque lug nuts to spec",
+          "Step 4: Reset TPMS sensors if needed"
+        ],
+        "benefits": [
+          "Maximizes tire investment",
+          "Identifies wear patterns early",
+          "Maintains even handling",
+          "Quick 30-minute service"
+        ],
+        "faq": [
+          {
+            "question": "Why rotate if I'll replace all tires at once?",
+            "answer": "Regular rotations prevent premature replacement of just two tires when others still have life."
+          },
+          {
+            "question": "Do you rotate directional tires?",
+            "answer": "Yes, we follow proper procedures for directional and staggered fitments common on performance vehicles."
+          }
+        ]
+      },
+      {
+        "slug": "tpms-service",
+        "name": "TPMS Service",
+        "shortDescription": "Keep your tire pressure monitoring system working through Kentucky's temperature swings.",
+        "description": "Louisville's 50-degree daily temperature variations in spring and fall frequently trigger false TPMS alerts. We diagnose whether your warning light indicates actual low pressure or a sensor issue.\n\nOur shop can program new sensors to match your vehicle's system after tire replacements. We also replace faulty valve stem sensors - a common failure point on Louisville vehicles exposed to road salt. Proper TPMS function is especially important for drivers commuting to bourbon country on winding rural roads.",
+        "process": [
+          "Step 1: Physical pressure check against TPMS reading",
+          "Step 2: Sensor signal strength test",
+          "Step 3: Battery voltage check",
+          "Step 4: Reprogramming or replacement as needed"
+        ],
+        "benefits": [
+          "Accurate pressure readings",
+          "Proper system functionality",
+          "Reset after tire service",
+          "Winter readiness check"
+        ],
+        "faq": [
+          {
+            "question": "Why does my TPMS light come on when temperatures drop?",
+            "answer": "Tire pressure decreases about 1 PSI per 10°F. We'll check if your pressure is truly low or just temperature-affected."
+          },
+          {
+            "question": "Can you disable my TPMS?",
+            "answer": "No, it's a safety system required by law. We'll fix it properly instead."
+          }
+        ]
+      },
+      {
+        "slug": "winter-tires",
+        "name": "Winter Tire Services",
+        "shortDescription": "Prepare for Kentucky's icy bridges and sudden snowstorms.",
+        "description": "While Louisville winters are relatively mild, black ice on the Ohio River bridges and sudden snow squalls demand proper traction. We help determine if winter tires make sense for your commute - particularly valuable for healthcare workers and other essential personnel.\n\nOur winter package includes seasonal changeovers with pressure adjustments for cold weather, plus dedicated storage for your off-season tires. We recommend winter tires for drivers regularly visiting hilly areas like Cherokee Park or southern Indiana. All installations include TPMS checks to ensure proper cold-weather monitoring.",
+        "process": [
+          "Step 1: Assess your driving needs and patterns",
+          "Step 2: Recommend appropriate winter tire options",
+          "Step 3: Professional mounting and balancing",
+          "Step 4: Storage setup for off-season tires"
+        ],
+        "benefits": [
+          "Superior ice and snow traction",
+          "Specialized rubber for cold temperatures",
+          "Reduced all-season tire wear",
+          "Convenient seasonal storage"
+        ],
+        "faq": [
+          {
+            "question": "Are winter tires worth it in Louisville?",
+            "answer": "For drivers crossing bridges daily or working essential jobs, yes. Casual drivers may manage with quality all-seasons."
+          },
+          {
+            "question": "When should I switch to winter tires?",
+            "answer": "Ideally before Thanksgiving, as our first freeze often surprises drivers in late November."
+          }
+        ]
+      },
+      {
+        "slug": "custom-wheels",
+        "name": "Custom Wheel Installation",
+        "shortDescription": "Proper fitment for Louisville's car enthusiasts and practical upgrades.",
+        "description": "From classic car owners in Old Louisville to truck drivers wanting better looks and performance, we ensure proper wheel fitment. Our technicians verify backspacing, offset, and load capacity to prevent rubbing or suspension issues.\n\nWe specialize in maintaining TPMS functionality during wheel upgrades - important for Louisville's inspection requirements. The process includes road testing to confirm no interference at full lock, especially valuable for vehicles navigating tight downtown streets or parking garages. All installations use hub-centric rings when needed for vibration-free highway driving.",
+        "process": [
+          "Step 1: Verify vehicle specifications and owner goals",
+          "Step 2: Test fitment before mounting tires",
+          "Step 3: Professional mounting with proper equipment",
+          "Step 4: Road test and adjustment"
+        ],
+        "benefits": [
+          "Improved vehicle appearance",
+          "Better handling characteristics",
+          "Proper TPMS integration",
+          "Vibration-free performance"
+        ],
+        "faq": [
+          {
+            "question": "Will larger wheels affect my ride quality?",
+            "answer": "Generally yes, but we can recommend tire combinations to minimize harshness on Louisville roads."
+          },
+          {
+            "question": "Do you offer wheel repair for curb damage?",
+            "answer": "Yes, we can refinish most alloy wheels damaged by Louisville's tight parking spots."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Tire replacement",
+        "text": "The team helped me choose the perfect tires for my commute from NuLu to the Ford plant. Noticed my old tires had uneven wear and fixed my alignment issue too. Six months later, tread wear is perfectly even.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Janelle K.",
+        "rating": 5,
+        "service": "Flat repair",
+        "text": "Got a nail in my tire near Churchill Downs right before derby week. Summit had me back on the road in 45 minutes with a proper patch job. They showed me exactly where the damage was and why it was safe to repair.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Derrick S.",
+        "rating": 4,
+        "service": "Winter tire changeover",
+        "text": "Appreciated their honest advice about whether I needed winter tires for my Crosstrek. Ended up getting them since I drive to Indiana daily. The storage service makes seasonal swaps hassle-free.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Wheel alignment",
+        "text": "After hitting a massive pothole on Eastern Parkway, my car pulled hard to the right. Summit's alignment fixed it completely and showed me the before/after measurements. No sales pressure for unneeded suspension work.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "TPMS service",
+        "text": "My sensor kept giving false alarms every cold morning. They diagnosed a weak battery and replaced just that one sensor instead of pushing for all four. Fair pricing and fast service.",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "Emily W.",
+        "rating": 5,
+        "service": "Tire rotation",
+        "text": "As a Highlands resident with street parking, I appreciate their quick rotations while I wait. They always point out any developing wear patterns from our angled streets.",
+        "date": "2024-09-18"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Louisville tire shop | Honest service since 2012",
+        "description": "Trusted Louisville tire services with fair pricing. Same-day repairs, quality brands, and local expertise for Kentucky drivers."
+      },
+      "about": {
+        "title": "About Summit Tire Shop | Louisville KY tire experts",
+        "description": "Learn about our Louisville tire shop's commitment to honest service and community support since 2012."
+      },
+      "services": {
+        "title": "Tire services in Louisville KY | Summit Tire Shop",
+        "description": "Complete tire services for Louisville drivers including replacements, repairs, alignments, and seasonal changes."
+      },
+      "contact": {
+        "title": "Contact Summit Tire Shop | Louisville tire service",
+        "description": "Schedule tire service in Louisville KY. Call 555-TIR-R91 for honest advice and quick appointments."
+      },
+      "reviews": {
+        "title": "Summit Tire Shop reviews | Louisville KY customers",
+        "description": "See what Louisville drivers say about our honest tire services and fair pricing approach."
+      },
+      "service-areas": {
+        "title": "Tire service areas | Louisville and surrounding KY",
+        "description": "Summit Tire Shop serves Louisville KY and nearby communities with reliable tire services."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Louisville",
+        "slug": "louisville-ky",
+        "state": "KY",
+        "content": "Summit Tire Shop is proud to serve the Louisville community with top-quality tire services. Whether you need new tires, rotations, alignments, or repairs, our expert team is here to keep you safely on the road. Louisville's diverse neighborhoods and busy highways mean reliable tires are a must, and we're committed to providing the best products and customer service in town. From performance tires for your sports car to all-season options for your family SUV, we have you covered.",
+        "localContext": "Louisville is Kentucky's largest city, known for its bourbon, horse racing, and vibrant urban culture.",
+        "nearbyAreas": [
+          "Jeffersontown",
+          "St. Matthews",
+          "Shively"
+        ]
+      },
+      {
+        "city": "Jeffersontown",
+        "slug": "jeffersontown-ky",
+        "state": "KY",
+        "content": "Summit Tire Shop is your trusted tire provider in Jeffersontown, offering expert services to keep your vehicle running smoothly. Whether you're commuting to Louisville or exploring the local area, our team ensures your tires are in peak condition. We specialize in everything from quick patches to full tire replacements, using only trusted brands. Visit us for friendly, professional service tailored to Jeffersontown drivers.",
+        "localContext": "Jeffersontown is a thriving suburb with a mix of residential areas and bustling commercial corridors.",
+        "nearbyAreas": [
+          "Louisville",
+          "Lyndon",
+          "Middletown"
+        ]
+      },
+      {
+        "city": "St. Matthews",
+        "slug": "st-matthews-ky",
+        "state": "KY",
+        "content": "Residents of St. Matthews rely on Summit Tire Shop for dependable tire services tailored to their needs. Our shop offers everything from high-performance tires for luxury vehicles to durable options for daily commuters. With convenient access near major shopping and dining areas, we make tire care hassle-free. Trust us for honest recommendations and fast, reliable service in St. Matthews.",
+        "localContext": "St. Matthews is an upscale neighborhood known for its shopping centers, restaurants, and historic charm.",
+        "nearbyAreas": [
+          "Louisville",
+          "Lyndon",
+          "Anchorage"
+        ]
+      },
+      {
+        "city": "Shively",
+        "slug": "shively-ky",
+        "state": "KY",
+        "content": "Summit Tire Shop proudly serves Shively drivers with expert tire services to keep their vehicles safe and road-ready. From alignments to winter tire swaps, we handle it all with precision and care. Our team understands the local driving conditions and recommends the best tires for your needs. Stop by for affordable, high-quality service you can trust.",
+        "localContext": "Shively is a tight-knit community with easy access to downtown Louisville and major highways.",
+        "nearbyAreas": [
+          "Louisville",
+          "Pleasure Ridge Park",
+          "Valley Station"
+        ]
+      },
+      {
+        "city": "Lyndon",
+        "slug": "lyndon-ky",
+        "state": "KY",
+        "content": "Lyndon residents trust Summit Tire Shop for all their tire needs. Whether you're driving through town or heading into Louisville, we ensure your tires are in top shape. Our selection includes all major brands, and our technicians provide fast, reliable service. Visit us for tire installations, rotations, and more—we’re here to keep Lyndon drivers safe on the road.",
+        "localContext": "Lyndon is a peaceful suburb with tree-lined streets and convenient access to major employers.",
+        "nearbyAreas": [
+          "St. Matthews",
+          "Jeffersontown",
+          "Middletown"
+        ]
+      },
+      {
+        "city": "Middletown",
+        "slug": "middletown-ky",
+        "state": "KY",
+        "content": "Summit Tire Shop is Middletown’s go-to destination for expert tire care. We offer a wide selection of tires to match your vehicle’s needs, whether you drive a sedan, truck, or SUV. Our team provides personalized service, ensuring you leave with confidence in your tires. From seasonal changes to emergency repairs, we’ve got Middletown covered.",
+        "localContext": "Middletown is a family-friendly suburb with excellent schools and a small-town feel.",
+        "nearbyAreas": [
+          "Lyndon",
+          "Jeffersontown",
+          "Anchorage"
+        ]
+      },
+      {
+        "city": "Anchorage",
+        "slug": "anchorage-ky",
+        "state": "KY",
+        "content": "Summit Tire Shop delivers premium tire services to Anchorage residents, ensuring safe and smooth travels. Our team is skilled in handling high-end vehicles and everyday commuters alike. Whether you need a quick patch or a full set of tires, we provide top-notch workmanship. Trust us for dependable service in the heart of Anchorage.",
+        "localContext": "Anchorage is an affluent community known for its historic homes and scenic landscapes.",
+        "nearbyAreas": [
+          "St. Matthews",
+          "Middletown",
+          "Glenview"
+        ]
+      },
+      {
+        "city": "Pleasure Ridge Park",
+        "slug": "pleasure-ridge-park-ky",
+        "state": "KY",
+        "content": "Pleasure Ridge Park drivers count on Summit Tire Shop for reliable tire solutions. We offer a full range of services, from alignments to tire balancing, to keep your vehicle performing its best. Our shop stocks quality tires for all makes and models, ensuring you find the perfect fit. Visit us for fast, friendly service in PRP.",
+        "localContext": "Pleasure Ridge Park is a close-knit community with a strong local identity and easy highway access.",
+        "nearbyAreas": [
+          "Shively",
+          "Valley Station",
+          "Fairdale"
+        ]
+      },
+      {
+        "city": "Fairdale",
+        "slug": "fairdale-ky",
+        "state": "KY",
+        "content": "Fairdale residents trust Summit Tire Shop for expert tire care at competitive prices. Whether you need all-terrain tires for outdoor adventures or reliable all-season options, we have the right fit. Our team is dedicated to keeping Fairdale drivers safe on the road with top-quality service and products. Stop by for a hassle-free tire experience.",
+        "localContext": "Fairdale is a charming neighborhood with a rural feel, yet minutes from downtown Louisville.",
+        "nearbyAreas": [
+          "Pleasure Ridge Park",
+          "Valley Station",
+          "Brooks"
+        ]
+      },
+      {
+        "city": "Valley Station",
+        "slug": "valley-station-ky",
+        "state": "KY",
+        "content": "Summit Tire Shop is Valley Station’s trusted source for professional tire services. We provide everything from tire repairs to full replacements, ensuring your vehicle stays roadworthy. Our team takes pride in offering honest advice and quick turnaround times. Whether you're commuting or traveling, we’ll keep your tires in top condition.",
+        "localContext": "Valley Station is a growing community with a mix of suburban and rural vibes.",
+        "nearbyAreas": [
+          "Shively",
+          "Pleasure Ridge Park",
+          "Fairdale"
+        ]
+      },
+      {
+        "city": "Brooks",
+        "slug": "brooks-ky",
+        "state": "KY",
+        "content": "Summit Tire Shop serves Brooks with dependable tire solutions for every driver. Whether you need rugged tires for trucks or fuel-efficient options for daily commutes, we have the expertise to help. Our shop is committed to delivering excellent service and fair pricing. Visit us for all your tire needs in Brooks.",
+        "localContext": "Brooks offers a quiet, rural lifestyle while still being close to Louisville’s amenities.",
+        "nearbyAreas": [
+          "Fairdale",
+          "Hillview",
+          "Mount Washington"
+        ]
+      },
+      {
+        "city": "Hillview",
+        "slug": "hillview-ky",
+        "state": "KY",
+        "content": "Hillview drivers choose Summit Tire Shop for high-quality tires and expert service. We stock a wide range of options to suit your vehicle and driving habits. From alignments to emergency repairs, our team is ready to assist. Trust us for fast, reliable tire care in Hillview.",
+        "localContext": "Hillview is a rapidly growing community with easy access to I-65 and major shopping areas.",
+        "nearbyAreas": [
+          "Brooks",
+          "Mount Washington",
+          "Shepherdsville"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "tire-replacement": "/images/service-tire-replacement.webp",
+      "flat-repair": "/images/service-flat-repair.webp",
+      "wheel-alignment": "/images/service-wheel-alignment.webp",
+      "tire-rotation": "/images/service-tire-rotation.webp",
+      "tpms-service": "/images/service-tpms-service.webp",
+      "winter-tires": "/images/service-winter-tires.webp",
+      "custom-wheels": "/images/service-custom-wheels.webp"
+    },
+    "servicesResponsive": {
+      "tire-replacement": {
+        "src": "/images/service-tire-replacement.webp",
+        "srcset": "/images/service-tire-replacement-400w.webp 400w, /images/service-tire-replacement-800w.webp 800w, /images/service-tire-replacement-1200w.webp 1200w, /images/service-tire-replacement.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "flat-repair": {
+        "src": "/images/service-flat-repair.webp",
+        "srcset": "/images/service-flat-repair-400w.webp 400w, /images/service-flat-repair-800w.webp 800w, /images/service-flat-repair-1200w.webp 1200w, /images/service-flat-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "wheel-alignment": {
+        "src": "/images/service-wheel-alignment.webp",
+        "srcset": "/images/service-wheel-alignment-400w.webp 400w, /images/service-wheel-alignment-800w.webp 800w, /images/service-wheel-alignment-1200w.webp 1200w, /images/service-wheel-alignment.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tire-rotation": {
+        "src": "/images/service-tire-rotation.webp",
+        "srcset": "/images/service-tire-rotation-400w.webp 400w, /images/service-tire-rotation-800w.webp 800w, /images/service-tire-rotation-1200w.webp 1200w, /images/service-tire-rotation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tpms-service": {
+        "src": "/images/service-tpms-service.webp",
+        "srcset": "/images/service-tpms-service-400w.webp 400w, /images/service-tpms-service-800w.webp 800w, /images/service-tpms-service-1200w.webp 1200w, /images/service-tpms-service.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "winter-tires": {
+        "src": "/images/service-winter-tires.webp",
+        "srcset": "/images/service-winter-tires-400w.webp 400w, /images/service-winter-tires-800w.webp 800w, /images/service-winter-tires-1200w.webp 1200w, /images/service-winter-tires.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "custom-wheels": {
+        "src": "/images/service-custom-wheels.webp",
+        "srcset": "/images/service-custom-wheels-400w.webp 400w, /images/service-custom-wheels-800w.webp 800w, /images/service-custom-wheels-1200w.webp 1200w, /images/service-custom-wheels.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
